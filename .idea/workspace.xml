@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec832fa5-806a-44be-a79c-721e252f6f00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/features/Payfazz_feature/c_topup_VA_BRI.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/Payfazz_feature/topup_VA_BRI.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/Payfazz_feature/u_email_toko.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/Payfazz_feature/u_nama_toko.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/Payfazz_feature/u_password.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/Payfazz_feature/u_pin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/Payfazz_feature/upgrade_premium.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/c_topup_VA_BRI_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/topup_VA_BRI_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/u_email_toko_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/u_nama_toko_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/u_password_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/u_pin_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/upgrade_premium_steps.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/automation_training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/automation_training.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Payfazz_feature/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/products.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Payfazz_feature/products.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/register.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/Payfazz_feature/register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps_definitions/login_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/login_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps_definitions/products_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/products_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps_definitions/register_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/register_steps.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,81 +32,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/automation_learning@All_tests_in_features__automation_training.rcov" NAME="All tests in features: automation_training Coverage Results" MODIFIED="1550133562924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation_training" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/login.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" selection-start-line="5" selection-start-column="4" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/steps_definitions/login_steps.rb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/topup_VA_BRI.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+        <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/topup_VA_BRI_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/register.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/steps_definitions/register_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/products.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/steps_definitions/products_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/support/hook.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="525">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class Template" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>text</find>
+      <find>sel</find>
+      <find>saldo</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,19 +80,44 @@
         <option value="$PROJECT_DIR$/features/support/hook.rb" />
         <option value="$PROJECT_DIR$/features/login.feature" />
         <option value="$PROJECT_DIR$/features/steps_definitions/login_steps.rb" />
-        <option value="$PROJECT_DIR$/features/products.feature" />
-        <option value="$PROJECT_DIR$/features/steps_definitions/products_steps.rb" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/register.feature" />
         <option value="$PROJECT_DIR$/features/steps_definitions/register_steps.rb" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/products_steps.rb" />
+        <option value="$PROJECT_DIR$/features/products.feature" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/topup_steps" />
+        <option value="$PROJECT_DIR$/features/topup" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/topup_steps.rb" />
+        <option value="$PROJECT_DIR$/features/topup.feature" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/update_nama_toko.rb" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/update_nama_toko_steps.rb" />
+        <option value="$PROJECT_DIR$/features/update_nama_toko.feature" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/update_email_toko_steps.rb" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/update_password_steps.rb" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/update_pin_steps.rb" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/upgrade_premium_steps.rb" />
+        <option value="$PROJECT_DIR$/features/Payfazz_feature/upgrade_premium.feature" />
+        <option value="$PROJECT_DIR$/features/Payfazz_feature/update_email_toko.feature" />
+        <option value="$PROJECT_DIR$/features/Payfazz_feature/update_nama_toko.feature" />
+        <option value="$PROJECT_DIR$/features/Payfazz_feature/update_password.feature" />
+        <option value="$PROJECT_DIR$/features/Payfazz_feature/update_pin.feature" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/cancel_topup_VA_Mandiri_steps.rb" />
+        <option value="$PROJECT_DIR$/features/Payfazz_feature/cancel_topup_VA_Mandiri.feature" />
+        <option value="$PROJECT_DIR$/features/Payfazz_feature/cancel_topup_VA_BRI.feature" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/cancel_topup_VA_BRI_steps.rb" />
+        <option value="$PROJECT_DIR$/features/Payfazz_feature/c_topup_VA_BRI.feature" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/c_topup_VA_BRI_steps.rb" />
+        <option value="$PROJECT_DIR$/features/Payfazz_feature/products.feature" />
+        <option value="$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/topup_VA_BRI_steps.rb" />
+        <option value="$PROJECT_DIR$/features/Payfazz_feature/topup_VA_BRI.feature" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1431" />
-    <option name="y" value="-4" />
-    <option name="width" value="959" />
-    <option name="height" value="772" />
+    <option name="x" value="75" />
+    <option name="y" value="44" />
+    <option name="width" value="1281" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -118,35 +125,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="automation_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation_training" type="462c0819:PsiDirectoryNode" />
+              <item name="automation_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation_learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automation_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation_training" type="462c0819:PsiDirectoryNode" />
+              <item name="automation_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation_learning" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automation_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation_training" type="462c0819:PsiDirectoryNode" />
+              <item name="automation_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation_learning" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="Payfazz_feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automation_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation_learning" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
               <item name="steps_definitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="automation_training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation_training" type="462c0819:PsiDirectoryNode" />
+              <item name="automation_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automation_learning" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="steps_definitions" type="462c0819:PsiDirectoryNode" />
+              <item name="Payfazz_steps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -154,6 +168,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features/Payfazz_feature" />
+      <recent name="$PROJECT_DIR$/features/steps_definitions/Payfazz" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features/steps_definitions/Payfazz" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,6 +190,42 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="All tests in features: automation_training" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <module name="automation_training" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/features" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in features: automation_training" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -196,22 +256,45 @@
       <workItem from="1549533410740" duration="3454000" />
       <workItem from="1549536867354" duration="37000" />
       <workItem from="1549536930715" duration="1922000" />
+      <workItem from="1550132967979" duration="617000" />
+      <workItem from="1550134416795" duration="727000" />
+      <workItem from="1550201372937" duration="3460000" />
+      <workItem from="1550227611103" duration="2553000" />
+      <workItem from="1550232045919" duration="1505000" />
+      <workItem from="1550457744789" duration="17679000" />
+      <workItem from="1550545883942" duration="16440000" />
+      <workItem from="1550630822419" duration="10723000" />
+      <workItem from="1550655425786" duration="3621000" />
+      <workItem from="1550718970600" duration="20137000" />
+      <workItem from="1550805632640" duration="1152000" />
+      <workItem from="1550809543729" duration="4019000" />
+      <workItem from="1550820768956" duration="4588000" />
+      <workItem from="1550826683900" duration="6294000" />
+      <workItem from="1550938019785" duration="139000" />
+      <workItem from="1551063496399" duration="3946000" />
+      <workItem from="1551067609862" duration="9054000" />
+      <workItem from="1551082446776" duration="5844000" />
+      <workItem from="1551148186954" duration="17255000" />
+      <workItem from="1551237806475" duration="18849000" />
+      <workItem from="1551409316472" duration="1442000" />
+      <workItem from="1551411559506" duration="16500000" />
+      <workItem from="1551669212082" duration="3422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34084000" />
+    <option name="totallyTimeSpent" value="204050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1431" y="-4" width="959" height="772" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16648412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24143426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32868218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -219,20 +302,20 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3544093" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3534884" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32868218" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3187251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.225498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32868218" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32868218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -240,7 +323,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3544093" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3534884" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -252,34 +335,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" selection-start-line="5" selection-start-column="4" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps_definitions/login_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps_definitions/products_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hook.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -287,24 +342,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/products.feature">
+    <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/register_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        <state relative-caret-position="351">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/register.feature">
+    <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/login_steps.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/u_nama_toko_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/steps_definitions/register_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/u_email_toko_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="438">
+          <caret line="35" column="3" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/u_password_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="27" selection-end-line="46" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/u_pin_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="48" column="3" selection-end-line="56" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/register.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/upgrade_premium_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/u_email_toko.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/upgrade_premium.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/u_pin.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/u_nama_toko.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/u_password.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/c_topup_VA_BRI_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/products_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/products.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/c_topup_VA_BRI.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Payfazz_feature/topup_VA_BRI.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/steps_definitions/Payfazz_steps/topup_VA_BRI_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>

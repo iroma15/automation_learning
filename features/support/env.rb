@@ -1,11 +1,11 @@
 require "appium_lib"
-require "pry"
+# require "pry"
 
 def caps
   { caps: {
       deviceName: "emulator-5554",
       platformName: "Android",
-      app: (File.join(File.dirname(__FILE__ ), "agen-debug-mock.apk")),
+      app: (File.join(File.dirname(__FILE__ ), "agen-debug.apk")),
       appPackage: "com.payfazz.android.debug",
       appActivity: "com.payfazz.android.splash.presentation.activity.SplashActivity",
       newCommandTimeout: "7200"
@@ -17,11 +17,13 @@ Appium.promote_appium_methods Object
 
 def login_function (phone_number, password)
   find_element(id: "button_login_onboarding").click
-  find_element(id: "et_big_input").send_keys("#{phone_number}")
+  #Appium::TouchAction.new.tap(x: 45, y: 100,fingers: 1).perform #tap anywhere to avoid 'shake your phone' popup
+  find_element(id: "et_big_input").send_keys("#{phone_number}") #input phone number
   find_element(id: "tv_primary_button").click
   find_element(id: "et_big_input").send_keys("#{password}")
   find_element(accessibility_id: "button-login").click
-  find_element(id: "ic_bottom_nav_home")
+  sleep(3)
+  find_element(id:"text_view_remaining_saldo")
 end
 
 def click_zero ()
