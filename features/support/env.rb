@@ -20,6 +20,7 @@ def login_function (phone_number, password)
   #Appium::TouchAction.new.tap(x: 45, y: 100,fingers: 1).perform #tap anywhere to avoid 'shake your phone' popup
   find_element(id: "et_big_input").send_keys("#{phone_number}") #input phone number
   find_element(id: "tv_primary_button").click
+  sleep(3)
   find_element(id: "et_big_input").send_keys("#{password}")
   find_element(accessibility_id: "button-login").click
   sleep(3)

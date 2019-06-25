@@ -7,9 +7,8 @@ Feature: This is login for Payfazz application
     Given I land on onboarding page
     Then I click on Login button
     Then I tap anywhere to avoid update pop up
-    Then I fill login number "081517938164"
+    Then I fill login number "089663968761"
     Then I click Lanjut button
-    Then I fill login password "Ultraman123"
+    Then I fill login password "Qwertyasdf1"
     Then I click on Login button to enter Home page
     Then I land on Home page
-

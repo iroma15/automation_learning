@@ -1,9 +1,9 @@
 Feature: This feature include using Payfazz products like ppob, bank transfer, and many more
-  @wip
-  Scenario: Buying phone balance using Payfazz
+  @belipaketdata
+  Scenario: Buying internet data using Payfazz
     When I land on onboarding page
-    Then I do login with phone number "081517938164" and password "Ultraman123"
-    Then I swipe to find Pulsa Seluler menu
+    Then I do login with phone number "089663968761" and password "Qwertyasdf123"
+    Then I swipe to find Data menu
     Then I click Pulsa Seluler menu
     Then I click Allow button
     Then I fill phone number

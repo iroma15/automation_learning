@@ -2,7 +2,7 @@ Then("I click on Register button") do
   find_element(id: "button_register_onboarding").click
 end
 
-Then("I fill register number 08155667444") do |value|
+Then("I fill register number 08155667999") do |value|
   find_element(id:"et_big_input").send_keys(value)
 end
 
@@ -10,15 +10,12 @@ Then("I click Lanjut button pertama") do
   find_element(id:"tv_primary_button").click
 end
 
-Then("I fill otp in otp field {string}") do |value|
-  sleep(3)
+Then("I fill otp in otp field ") do
+  sleep(10)
   Appium::TouchAction.new.press(x: 35, y: 90,fingers: 1).perform #single tap
   sleep(10)
 end
 
-Then("I click Lanjut button kedua") do
-  find_element(id:"tv_primary_button").click
-end
 Then("I fill Nama Toko Saya {string}") do |value|
   find_element(id: "et_big_input").send_keys(value)
 end
@@ -26,9 +23,9 @@ Then("I click Lanjut button ketiga") do
   find_element(id:"tv_primary_button").click
 end
 
-Then("I fill login password {string}") do |value|
-  find_element(id:"et_big_input").send_keys(value)
-end
+#Then("I fill login password {string}") do |password|
+ # find_element(id:"et_big_input").send_keys("#{password}")
+#end
 Then("I click Lanjut button keempat") do
   find_element(id:"tv_primary_button").click
 end

@@ -22,7 +22,7 @@ end
 
 Then("I click Lanjut button") do
   sleep(3)
-  Appium::TouchAction.new.press(x: 45, y: 100,fingers: 1).perform
+  #Appium::TouchAction.new.press(x: 45, y: 100,fingers: 1).perform
   find_element(id: "tv_primary_button").click
 end
 
@@ -31,6 +31,7 @@ Then("I fill login password {string}") do |password|
 end
 
 Then("I click on Login button to enter Home page") do
+  sleep(10)
   find_element(accessibility_id: "button-login").click
   #text("Login").click
 end

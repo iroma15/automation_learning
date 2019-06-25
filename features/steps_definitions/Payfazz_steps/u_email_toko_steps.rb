@@ -15,7 +15,7 @@ Then("I click Email tab") do
 end
 
 Then("I input OTP") do
-  sleep(10) # wait to input OTP from staging manually
+  sleep(20) # wait to input OTP from staging manually
 end
 
 Then("I Click Lanjut Button") do

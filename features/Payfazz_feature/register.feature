@@ -3,10 +3,10 @@ Feature: This feature include register feature in payfazz app
   Scenario: Positive flow when registering in payfazz app
     When I land on onboarding page
     Then I click on Register button
-    Then I fill register number "08155667444"
-    Then I click Lanjut button pertama
+    Then I fill register number "08155667999"
+    #Then I click Lanjut button pertama
     Then I fill otp in otp field "123456"
-    Then I click Lanjut button kedua
+    #Then I click Lanjut button kedua
     Then I fill Nama Toko Saya "Toko QA"
     Then I click Lanjut button ketiga
     Then I fill login password "Ultraman123"
